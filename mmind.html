@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MasterMind</title>
+		<link href="mmind.css" rel="stylesheet" />
+		<script src="mmind.js"></script>
+	</head>
+	<body onload="init();">
+		<div class="centre">
+			<h1>MasterMind</h1>
+			<h2>Propositions</h2>
+			<table>
+			<tr>
+				<td id="P81"></td>
+				<td id="P82"></td>
+				<td id="P83"></td>
+				<td id="P84"></td>
+				<td class="no_border">
+					<table>
+						<tr>
+							<td id="V81" class="petit"></td>
+							<td id="V82" class="petit"></td>
+						</tr>
+						<tr>
+							<td id="V83" class="petit"></td>
+							<td id="V84" class="petit"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td id="P71"></td>
+				<td id="P72"></td>
+				<td id="P73"></td>
+				<td id="P74"></td>
+				<td class="no_border">
+					<table>
+						<tr>
+							<td id="V71" class="petit"></td>
+							<td id="V72" class="petit"></td>
+						</tr>
+						<tr>
+							<td id="V73" class="petit"></td>
+							<td id="V74" class="petit"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td id="P61"></td>
+				<td id="P62"></td>
+				<td id="P63"></td>
+				<td id="P64"></td>
+				<td class="no_border">
+					<table>
+						<tr>
+							<td id="V61" class="petit"></td>
+							<td id="V62" class="petit"></td>
+						</tr>
+						<tr>
+							<td id="V63" class="petit"></td>
+							<td id="V64" class="petit"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td id="P51"></td>
+				<td id="P52"></td>
+				<td id="P53"></td>
+				<td id="P54"></td>
+				<td class="no_border">
+					<table>
+						<tr>
+							<td id="V51" class="petit"></td>
+							<td id="V52" class="petit"></td>
+						</tr>
+						<tr>
+							<td id="V53" class="petit"></td>
+							<td id="V54" class="petit"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td id="P41"></td>
+				<td id="P42"></td>
+				<td id="P43"></td>
+				<td id="P44"></td>
+				<td class="no_border">
+					<table>
+						<tr>
+							<td id="V41" class="petit"></td>
+							<td id="V42" class="petit"></td>
+						</tr>
+						<tr>
+							<td id="V43" class="petit"></td>
+							<td id="V44" class="petit"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td id="P31"></td>
+				<td id="P32"></td>
+				<td id="P33"></td>
+				<td id="P34"></td>
+				<td class="no_border">
+					<table>
+						<tr>
+							<td id="V31" class="petit"></td>
+							<td id="V32" class="petit"></td>
+						</tr>
+						<tr>
+							<td id="V33" class="petit"></td>
+							<td id="V34" class="petit"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td id="P21"></td>
+				<td id="P22"></td>
+				<td id="P23"></td>
+				<td id="P24"></td>
+				<td class="no_border">
+					<table>
+						<tr>
+							<td id="V21" class="petit"></td>
+							<td id="V22" class="petit"></td>
+						</tr>
+						<tr>
+							<td id="V23" class="petit"></td>
+							<td id="V24" class="petit"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td id="P11"></td>
+				<td id="P12"></td>
+				<td id="P13"></td>
+				<td id="P14"></td>
+				<td class="no_border">
+					<table>
+						<tr>
+							<td id="V11" class="petit"></td>
+							<td id="V12" class="petit"></td>
+						</tr>
+						<tr>
+							<td id="V13" class="petit"></td>
+							<td id="V14" class="petit"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+			<h2>Couleurs</h2>
+			<table><tr>
+				<td class="rouge" ondblclick="mettre_rouge();">
+				<td class="vert" ondblclick="mettre_vert();">
+				<td class="jaune" ondblclick="mettre_jaune();">
+				<td class="bleu" ondblclick="mettre_bleu();">
+				<td class="orange" ondblclick="mettre_orange();">
+				<td class="mauve" ondblclick="mettre_mauve();">
+			</tr></table><br />
+			<input type="button" value="Effacer" onclick="effacer();" />
+			<input type="button" value="Retour" onclick="retour();"/>
+			<input type="button" value="Valider" onclick="valider();"/>
+                        <h2>R&eacute;sultat</h2>
+			<table><tr><td id="R1"></td><td id="R2"></td><td id="R3"></td><td id="R4"></td></tr></table>
+		</div>
+	</body>
+</html>
